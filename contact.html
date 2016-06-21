@@ -28,8 +28,83 @@
 
 		</nav>
 
+	<section>
+		<h2>Contacta con nosotros</h2>
+		<div>
+			<div id="googleMap"></div>
+		</div>
+		<div>
+			<form name="Contacto Batman" method="GET">
+			<div>
+				<label for="nombre">Nombre</label>
+				<input type="text" name="nombre" id="nombre" placeholder="Tu Nombre" required>
+				<input type="text" name="apellidos" id="apellidos" placeholder="Tus Apellidos" required>
+			</div>
+			<div>
+				<label for="email">e-mail</label>
+				<input type="email" name="email" id="email" placeholder="tuemail@dominio.com" pattern="[A-Za-z0-9\.\+]+@[A-Za-z0-9]+\.[A-Za-z0-9\.]+" required>
+			</div>
+			<div>
+				<label for="tipoMision1">Consulta</label>
+				<input type="radio" id="tipoMision1" name="tipoMision" value="Consulta" required>
+				<label for="tipoMision2">Mision Simple</label>
+				<input type="radio" id="tipoMision2" name="tipoMision" value="Mision Simple" required>
+				<label for="tipoMision3">Rescate</label>
+				<input type="radio" id="tipoMision3" name="tipoMision" value="Rescate" required>
+				<label for="tipoMision4">Salvar Gotham</label>
+				<input type="radio" id="tipoMision4" name="tipoMision" value="Salvar Gotham" required>
+			</div>
+			<div>
+				<label for="ejercito">Tamaño del Ejercito</label>
+				<input type="number" name="ejercito" id="ejercito" min="20">
+			</div>
+			<div>
+				<label for="fecha">Fecha</label>
+				<input type="date" name="fecha" id="fecha" required>
+			</div>
+			<div>
+				<input type="submit" name="Enviar">
+			</div>
+				
+			</form>
+			
+		</div>
+	</section>
+	<section>
+	<table>
+		<thead>
+		<tr>
+			<th>
+				Tipo de Servicio
+			</th>
+			<th>
+				Precio
+			</th>
 
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td>Consulta de Misión</td>
+			<td>100€</td>
+		</tr>
+		<tr>
+			<td>Mision Simple</td>
+			<td>300€</td>
+		</tr>
+		<tr>
+			<td>Rescate</td>
+			<td>500€</td>
+		</tr>
+		<tr>
+			<td>Salvar Gotham</td>
+			<td>10.000€</td>
+		</tr>
+		</tbody>
 
+	</table>
+		
+	</section>
 		<footer>
 			Jorge Luis Alvarez Solis &copy; 2016 Clica
 		</footer>
