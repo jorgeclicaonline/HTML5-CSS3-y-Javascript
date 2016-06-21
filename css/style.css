@@ -29,11 +29,22 @@ body {
 	display:inline;
 }
 
+
+
 .navbar .navbar-list .navbar-item a {
 	display:inline-block;
 	padding: 20px;
 	text-decoration: none;
 }
+
+.navbar .navbar-list .navbar-item a:hover {
+	display:inline-block;
+	padding: 20px;
+	text-decoration: none;
+	color:#f7f7f7;
+	background-color: #a4a4a4;
+}
+
 
 .clearfix:after {
   content: " "; /* Older browser do not support empty content */
@@ -64,6 +75,16 @@ body {
 	text-align: center;
 	left: 0;
 	top:60%;
+}
+
+.about-me .batman-foto{
+	max-width: 50%;
+	float: left;
+}
+
+.about-me .batman-bio{
+	max-width: 50%;
+	float: right;
 }
 
 .title-img {
