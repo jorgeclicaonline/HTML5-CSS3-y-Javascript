@@ -56,6 +56,15 @@ body {
 
 }
 
+.title-cite{
+	position: absolute;
+	width: 100%;
+	color: white;
+	font-family: batman;
+	text-align: center;
+	left: 0;
+	top:60%;
+}
 
 .title-img {
 	width: 100%;
